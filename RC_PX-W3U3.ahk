@@ -204,7 +204,7 @@ PgDn::SendToTVTestWithControlSend("^{Down}")	;チャンネル↓
 return
 
 
-#IfWinActive ahk_class PowerDVD13
+#IfWinActive ahk_class PowerDVD15
 {
 
 ;*::*	;*
@@ -274,7 +274,7 @@ return
 
 
 SendToPDVD(keysToSend) {
-	IfWinExist, ahk_class PowerDVD13
+	IfWinExist, ahk_class PowerDVD15
 	{
 ;		WinActivate
 		Send, %keysToSend%
